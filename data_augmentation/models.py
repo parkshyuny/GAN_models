@@ -5,7 +5,7 @@ class Generator(nn.Module):
     """
     Generator model.
 
-    According to the paper, the Generator Block must have the following:
+    According to the paper, the generator block must have the following:
       1) Transposed convolutional layers.
       2) Batchnorm, except for the final layer.
       3) Each batch norm is followed by a ReLU activation.
