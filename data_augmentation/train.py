@@ -1,8 +1,8 @@
-import models
 import cv2
 import os
 import torch
 
+from utils import models
 from pathlib import Path
 from tools import sample_images
 from torch import nn
